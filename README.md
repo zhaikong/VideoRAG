@@ -135,6 +135,14 @@ Our VideoRAG algorithm significantly outperforms existing methods in long-contex
   <img src="Vimo-desktop/figures/table.png" width="80%" alt="Performance Comparison" />
 </div>
 
+We also evaluate VideoRAG's QA performance on the Video-MME long video track to better understand the gains over the backbone models (included here because of the paper's page limit):
+
+| Video-MME Long Video | MiniCPM-o w/o subs | MiniCPM-o w/ subs | MiniCPM-V w/o subs | MiniCPM-V w/ subs | VideoRAG |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Accuracy | 52.2% | 56.3% | 51.8% | 56.3% | **60.2%** |
+
+> Note: The score may show slight fluctuations across runs due to the instability of LLM generation.
+
 ### Experiments and Evaluation
 
 See [VideoRAG-algorithm](VideoRAG-algorithm) for detailed development setup including:
